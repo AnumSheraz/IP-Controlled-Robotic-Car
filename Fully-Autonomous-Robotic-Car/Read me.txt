@@ -6,6 +6,8 @@ This code is completely integrated with GPS, Compass Module (I2C communication) 
 
 3. And ofcourse, you must change the destination point lat and lng. 
 
-4. Once thats done, you're ready to test your robot. 
+4. Once thats done, now you can run the main code on Raspberry Pi "Raspberry_Code.py" and on the PC, run "Code.py" 
+
+5. you're ready to test your robot. 
 
 Note: if your Compass module is working fine and giving correct angles of the head position, then you'll need to modify your function "GPS()" in the "Raspberry_code.py", such that, currently its only calculatig the distance between your current position and destination points, you'll need to add calculation of finding the head degrees angle between two points aswell. You may take help from "http://www.cs.nyu.edu/visual/home/proj/tiger/gisfaq.html".

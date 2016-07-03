@@ -1,0 +1,13 @@
+1.install QT 4 Designer
+2.design your front panel UI
+3.save as .iu file
+4.compile the .ui into python executable file
+  pyuic4 main.ui -o main.py
+5.You're done
+
+
+Virtual com ports in ubuntu;
+sudo socat PTY,link=/dev/ttyS10 PTY,link=/dev/ttyS11
+
+
+
